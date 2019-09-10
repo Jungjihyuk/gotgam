@@ -66,7 +66,7 @@ export default {
 		width: 100%;
 	}
 
-	@cblue : #41B883;
+	@cblue : #ff4401;
 	@cgrey : #3E3A37;
 	@cwhite : #ffffff;
 	@ccream : #FAFBFC;
