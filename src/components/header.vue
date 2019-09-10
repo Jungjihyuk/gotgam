@@ -6,24 +6,22 @@
                 <span></span>
                 <span></span>
             </div>
-            <img src="../assets/logo.png" alt="logo">
+            <img src="../assets/logo2.png" alt="logo">
             <nav id="menu">
-                <li><a>Menu 1</a></li>
-                <li class="drop"><a v-on:click="display_drop_menu()">Menu 2 dropdown <i class="icon-arrow"></i></a>
+                <li class="drop"><a v-on:click="display_drop_menu()">Travel <i class="icon-arrow"></i></a>
                     <ul class="drop_menu">
-                        <a>Sub menu 1</a>
-                        <a>Sub menu 2</a>
-                        <a>Sub menu 3</a>
+                        <a>All Travel</a>
+                        <a>Travel By Region</a>
+                        <a>Travel By Mood</a>
                     </ul>
                 </li>
-                <li class="drop"><a v-on:click="display_drop_menu()">Menu 3 dropdown  <i class="icon-arrow"></i></a>
-                    <ul class="drop_menu">
-                        <a>Sub menu 1</a>
-                        <a>Sub menu 2</a>
-                        <a>Sub menu 3</a>
-                    </ul>
-                </li>
-                <li><a>Menu 4</a></li>
+				<li><a>Registration</a></li>
+                <li><a>About</a></li>
+
+				<div class="login_bar">
+					<li><a>Login</a></li>
+					<li><a>Join</a></li>
+				</div>
             </nav>
         </div>
     </header>
@@ -87,20 +85,14 @@ export default {
 		display: inline-block;
 		background-repeat: no-repeat;
 	}
-
-	html, body {margin: 0; width: 100%; height: 100%; font-size: 14px;}
-	* {box-sizing: border-box;}
-	body {background-color: @cblue; padding-top: 113px; overflow-x: hidden; &.display_menu{overflow-y: hidden;}}
-	ul {padding: 0; margin: 0;}
-	li {list-style: none;}
 	
-	.wrap {max-width: 1024px; min-width: 320px;}
+	body {&.display_menu{overflow-y: hidden;}}
 	
 	header {
 		display: flex;
 		z-index: 1;
 		padding: 10px 0;
-		background-color: @cwhite;
+		background-color: @ccream;
 		position: fixed;
 		width: 100%;
 		top: 0;
@@ -129,7 +121,7 @@ export default {
 	header #menu li {
 		position: relative;
 		user-select: none;
-		margin-left: 20px;
+		margin: 0 30px;
 
 		i {width: 12px; height: 12px; background-color: @cgrey;}
 		
@@ -207,6 +199,10 @@ export default {
 		span:nth-child(1) {transform: rotate(45deg) translate(2px, 1px);}
 		span:nth-child(2) {transform: rotate(-45deg);}
 		span:nth-child(3) {transform: rotate(45deg) translate(6px, -9px);}
+	}
+
+	.login_bar {
+		display: flex;
 	}
 
 	@media screen and (max-width: 660px) {
@@ -289,6 +285,10 @@ export default {
 				margin: 0;
 				border-bottom: 1px solid @clightgrey !important;
 			}
+		}
+
+		.login_bar {
+			display: inline;
 		}
 	}
 
