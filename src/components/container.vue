@@ -2,17 +2,19 @@
   <div class="container">
 	  <HomeHeader></HomeHeader>
 	  <div class="wrap">
-		  
+		  <Section1></Section1>
 	  </div>	
   </div>
 </template>
 
 <script>
 import HomeHeader from './homeHeader.vue';
+import Section1 from './section1.vue';
 
 export default {
 	components: {
-		HomeHeader
+		HomeHeader,
+		Section1
 	}
 }
 </script>
@@ -25,5 +27,6 @@ export default {
 
 .container .wrap {
 	width: 100%;
+	margin: 0 auto;
 }
 </style>

@@ -255,7 +255,7 @@ export default {
   cursor: pointer;
   box-sizing: border-box;
   flex: 1;
-  z-index: 10;
+  /* z-index: 10; */
 }
 
 .etc_wrap .search_form span {
