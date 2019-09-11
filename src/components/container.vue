@@ -3,6 +3,7 @@
 	  <HomeHeader></HomeHeader>
 	  <div class="wrap">
 		  <Section1></Section1>
+			<Section2></Section2>
 	  </div>	
   </div>
 </template>
@@ -10,11 +11,13 @@
 <script>
 import HomeHeader from './homeHeader.vue';
 import Section1 from './section1.vue';
+import Section2 from './section2.vue';
 
 export default {
 	components: {
 		HomeHeader,
-		Section1
+		Section1,
+		Section2
 	}
 }
 </script>
