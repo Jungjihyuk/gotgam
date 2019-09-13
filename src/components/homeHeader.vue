@@ -306,5 +306,6 @@ export default {
   font-size: .65rem;
   color: #353745;
   letter-spacing: .008rem;
+  margin-bottom: 0;
 }
 </style>
