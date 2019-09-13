@@ -15,7 +15,7 @@
                         <a>Travel By Mood</a>
                     </ul>
                 </li>
-				<li><a>Registration</a></li>
+				<li><router-link to="registration">Registration</router-link></li>
                 <li><a>About</a></li>
 
 				<div class="login_bar">
