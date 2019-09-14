@@ -7,7 +7,7 @@
           <p>Everywhere You Want To Go.</p>
         </div>
         <div class="footer_wrap_menu_browse">
-          <h4>Brose</h4>
+          <h4>Browse</h4>
           <a>Travel</a>
           <a>About</a>
           <a>FAQ</a>
@@ -130,5 +130,25 @@ export default {
 .footer_wrap_sub {
   justify-content: space-between;
   border-top: 1px solid #ddd;
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.footer_wrap_sub > p {
+  margin: 1rem 0 0 0;
+  font-size: .65rem;
+  line-height: 1.15rem;
+}
+
+.footer_wrap_sub > div {
+  margin: 1rem 0 0 0;
+  font-size: .65rem;
+  line-height: .85rem;
+}
+
+.footer_wrap_sub > div > a:nth-of-type(1) {
+  font-weight: 700;
+  display: inline-flex;
+  margin-right: .25rem;
 }
 </style>
