@@ -29,12 +29,12 @@
 
 <script>
 import * as header from '../js/header.js';
-import registration from "./registration";
+import Registration from "./registration.vue";
 
 export default {
   components: {
-      registration
-  },
+        Registration,
+    },
 	methods: {
 		display_menu : function() {
 			var body = document.getElementsByTagName("body")[0];
