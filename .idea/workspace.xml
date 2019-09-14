@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ade05781-255f-4743-8a02-5c88e4a0472d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/css/app.5d05bf6b4c6dc3696471df75d851081f.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/css/app.5d05bf6b4c6dc3696471df75d851081f.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/app.8cfd03cd63a38afb3650.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/app.8cfd03cd63a38afb3650.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/header.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/registration.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/models.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,23 +22,7 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="gotgam" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="gotgam" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="gotgam" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -127,7 +102,7 @@
       <workItem from="1568191158464" duration="6767000" />
       <workItem from="1568216638632" duration="657000" />
       <workItem from="1568356828744" duration="8641000" />
-      <workItem from="1568434438451" duration="4640000" />
+      <workItem from="1568434438451" duration="4948000" />
     </task>
     <servers />
   </component>
