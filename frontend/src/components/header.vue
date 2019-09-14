@@ -15,13 +15,12 @@
                         <a>Travel By Mood</a>
                     </ul>
                 </li>
-				<li><a href="/enroll">Registration</a></li>
+				        <li><a href="/registration">Registration</a></li>
                 <li><a>About</a></li>
-
-				<div class="login_bar">
-					<li><a>Login</a></li>
-					<li><a>Join</a></li>
-				</div>
+                <div class="login_bar">
+                  <li><a>Login</a></li>
+                  <li><a>Join</a></li>
+                </div>
             </nav>
         </div>
     </header>
@@ -29,12 +28,8 @@
 
 <script>
 import * as header from '../js/header.js';
-import Registration from "./registration.vue";
 
 export default {
-  components: {
-        Registration,
-    },
 	methods: {
 		display_menu : function() {
 			var body = document.getElementsByTagName("body")[0];

@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ade05781-255f-4743-8a02-5c88e4a0472d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/css/app.5d05bf6b4c6dc3696471df75d851081f.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/css/app.5d05bf6b4c6dc3696471df75d851081f.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/app.8cfd03cd63a38afb3650.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/app.8cfd03cd63a38afb3650.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/header.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/registration.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/registration.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/registration.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/router/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -123,7 +127,7 @@
       <workItem from="1568191158464" duration="6767000" />
       <workItem from="1568216638632" duration="657000" />
       <workItem from="1568356828744" duration="8641000" />
-      <workItem from="1568434438451" duration="1522000" />
+      <workItem from="1568434438451" duration="4640000" />
     </task>
     <servers />
   </component>
@@ -144,7 +148,7 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/gotgam$Test.coverage" NAME="Test Coverage Results" MODIFIED="1568435832677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gotgam$Test.coverage" NAME="Test Coverage Results" MODIFIED="1568436161900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Test$Test.coverage" NAME="Test Coverage Results" MODIFIED="1568217111610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

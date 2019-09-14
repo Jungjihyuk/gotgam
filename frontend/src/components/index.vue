@@ -10,14 +10,12 @@
 import Header from './header.vue';
 import Container from './container.vue';
 import Footer from './footer.vue';
-import Registration from "./registration.vue";
 
 export default {
     components: {
         Header,
         Container,
         Footer,
-        Registration,
     }
 }
 </script>
