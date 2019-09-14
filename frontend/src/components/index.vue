@@ -11,11 +11,12 @@ import Header from './header.vue';
 import Container from './container.vue';
 import Footer from './footer.vue';
 
+
 export default {
     components: {
         Header,
         Container,
-        Footer
+        Footer,
     }
 }
 </script>

@@ -15,7 +15,7 @@
                         <a>Travel By Mood</a>
                     </ul>
                 </li>
-				<li><a>Registration</a></li>
+				<li><a href="/enroll">Registration</a></li>
                 <li><a>About</a></li>
 
 				<div class="login_bar">
@@ -29,8 +29,12 @@
 
 <script>
 import * as header from '../js/header.js';
+import registration from "./registration";
 
 export default {
+  components: {
+      registration
+  },
 	methods: {
 		display_menu : function() {
 			var body = document.getElementsByTagName("body")[0];

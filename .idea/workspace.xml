@@ -3,6 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="ade05781-255f-4743-8a02-5c88e4a0472d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/css/app.6d1a2d1899ce7725bcd2f97aef82367a.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/css/app.6d1a2d1899ce7725bcd2f97aef82367a.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/app.e3dc91e49f6680499f8b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/app.e3dc91e49f6680499f8b.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/router/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,6 +26,7 @@
       <list>
         <option value="Flask Main" />
         <option value="HTML File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -27,13 +38,14 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Flask_Project/ToDoList" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -80,7 +92,7 @@
       <workItem from="1568190544864" duration="523000" />
       <workItem from="1568191158464" duration="6767000" />
       <workItem from="1568216638632" duration="657000" />
-      <workItem from="1568356828744" duration="3544000" />
+      <workItem from="1568356828744" duration="8641000" />
     </task>
     <servers />
   </component>
