@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ade05781-255f-4743-8a02-5c88e4a0472d" name="Default Changelist" comment="" />
+    <list default="true" id="ade05781-255f-4743-8a02-5c88e4a0472d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/db.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jade.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jh.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/section3_img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/section3_img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/section3_img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/suwon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/yj.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/homeHeader.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/registration.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/section1.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/section2.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/section3.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/section4.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/footer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/container.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/container.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +82,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Flask_Project/ToDoList" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -116,6 +143,7 @@
       <workItem from="1568216638632" duration="657000" />
       <workItem from="1568356828744" duration="8641000" />
       <workItem from="1568434438451" duration="5489000" />
+      <workItem from="1568611826906" duration="310000" />
     </task>
     <servers />
   </component>
@@ -136,7 +164,7 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/gotgam$Test.coverage" NAME="Test Coverage Results" MODIFIED="1568439699375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gotgam$Test.coverage" NAME="Test Coverage Results" MODIFIED="1568611862224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Test$Test.coverage" NAME="Test Coverage Results" MODIFIED="1568217111610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
