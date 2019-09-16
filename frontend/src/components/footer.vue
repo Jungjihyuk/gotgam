@@ -68,13 +68,6 @@ export default {
 
 <style>
 .footer {
-<<<<<<< HEAD:frontend/src/components/footer.vue
-    position:absolute;
-    /* bottom:0; */
-    width:100%;
-    height:70px;   
-    background:#ccc;
-=======
     position: absolute;
     /* bottom: 0; */
     width: 100%;
@@ -157,6 +150,5 @@ export default {
   font-weight: 700;
   display: inline-flex;
   margin-right: .25rem;
->>>>>>> 1846b9172560e5981b14658a7a861aa0604aed6e:src/components/footer.vue
 }
 </style>
