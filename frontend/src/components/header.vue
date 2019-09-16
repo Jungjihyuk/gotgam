@@ -15,11 +15,11 @@
                         <a>Travel By Mood</a>
                     </ul>
                 </li>
-				<li><router-link to="registration">Registration</router-link></li>
+				        <li><a>Registration</a></li>
                 <li><a>About</a></li>
 
 				<div class="login_bar">
-					<li><a>Login</a></li>
+          <li><a>Login</a></li>
 					<li><a>Join</a></li>
 				</div>
             </nav>
@@ -56,7 +56,7 @@ export default {
 			if(window.innerWidth < 660 && drop_menu.classList.contains("display")) {
 				event.target.parentElement.nextSibling.nextSibling.style.marginTop = drop_menu.clientHeight + "px";
 			}
-		}	
+		}
 	}
 }
 </script>
@@ -85,9 +85,9 @@ export default {
 		display: inline-block;
 		background-repeat: no-repeat;
 	}
-	
+
 	body {&.display_menu{overflow-y: hidden;}}
-	
+
 	header {
 		display: flex;
 		z-index: 1;
@@ -100,7 +100,7 @@ export default {
 		box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
 		transition: 0.33s;
 	}
-	
+
 	header .wrap {
 		padding: 0 2%;
 		width: 100%;
@@ -108,23 +108,23 @@ export default {
 		align-items: flex-end;
 		justify-content: space-between;
 	}
-	
+
 	header img {
 		width: 100px;
 	}
-	
+
 	header #menu {
 		display: flex;
 		flex-direction: row;
 	}
-	
+
 	header #menu li {
 		position: relative;
 		user-select: none;
 		margin: 0 30px;
 
 		i {width: 12px; height: 12px; background-color: @cgrey;}
-		
+
 		a {
 			color: @cgrey;
 			cursor: pointer;
@@ -154,7 +154,7 @@ export default {
 		transition: 0.25s;
 		padding-bottom: 10px;
 		box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1);
-		
+
 		a {
 			margin-left: 20px;
 			display: block;
@@ -167,7 +167,7 @@ export default {
 
 	header .drop_menu.display {
 		transform: scaleY(1);
-		
+
 		a {
 			opacity: 1;
 		}
@@ -207,20 +207,20 @@ export default {
 
 	@media screen and (max-width: 660px) {
 		body {padding-top: 70px;}
-		
+
 		header .wrap {
 			justify-content: center;
 			align-items: center;
 			flex-direction: column;
 			padding: 0;
 		}
-		
+
 		header img {width: 50px;}
-		
+
 		header #hamburger {
 			display: block;
 		}
-		
+
 		header #menu {
 			width: 100%;
 			display: block;
@@ -229,10 +229,10 @@ export default {
 			transition: 0.33s ease;
 			flex-direction: column;
 		}
-		
+
 		.display_menu header #menu {
 			height: calc(100vh - 64px);
-			
+
 			li {
 				height: @body_height_8;
 				border-bottom: 1px solid @clightgrey;
@@ -247,7 +247,7 @@ export default {
 			opacity: 0;
 			margin-left: 0;
 			transition: 0.25s ease;
-			
+
 			a {
 				left: 0;
 				line-height: @body_height_8;
@@ -262,7 +262,7 @@ export default {
 					i {background-color: @cwhite;}
 				}
 			}
-			
+
 			i {
 				position: absolute;
 				right: 20px;
