@@ -18,10 +18,10 @@
 				        <li><a>Registration</a></li>
                 <li><a>About</a></li>
 
-				<div class="login_bar">
-          <li><a>Login</a></li>
-					<li><a>Join</a></li>
-				</div>
+                <div class="login_bar">
+                  <li>Login</li>
+                  <li><a>Join</a></li>
+                </div>
             </nav>
         </div>
     </header>

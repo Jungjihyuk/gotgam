@@ -1,19 +1,17 @@
 <template>
   <div id="app">
-    <Index>
-    </Index>
+
   </div>
 </template>
 
 <script>
-import Reset from './css/reset.css';
 import Index from './components/index';
 
 export default {
   name: 'App',
 
   components : {
-    Index
+      Index
   }
 }
 </script>
