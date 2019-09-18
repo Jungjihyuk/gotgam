@@ -1,2 +1,0 @@
-webpackJsonp([1],{K31e:function(e,n,t){"use strict";Object.defineProperty(n,"__esModule",{value:!0});var c={render:function(){var e=this.$createElement;return(this._self._c||e)("h1",[this._v("login page")])},staticRenderFns:[]};var r=t("VU/8")({name:"Login"},c,!1,function(e){t("cOSA")},"data-v-938c6cf8",null);n.default=r.exports},cOSA:function(e,n){}});
-//# sourceMappingURL=1.d8e8544530eb39a6e253.js.map
