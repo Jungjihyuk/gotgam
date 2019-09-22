@@ -4,6 +4,7 @@
         <div class="container1">
         <router-view></router-view>
         </div>
+
         <Footer></Footer>
     </div>
 </template>

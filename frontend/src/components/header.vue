@@ -49,7 +49,6 @@ export default {
         }
 		};
 	},
-
 	methods: {
 		display_menu : function() {
 			var body = document.getElementsByTagName("body")[0];
@@ -104,9 +103,7 @@ export default {
 		display: inline-block;
 		background-repeat: no-repeat;
 	}
-
 	body {&.display_menu{overflow-y: hidden;}}
-
 	header {
 		display: flex;
 		z-index: 1;
@@ -119,7 +116,6 @@ export default {
 		box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
 		transition: 0.33s;
 	}
-
 	header .wrap {
 		padding: 0 2%;
 		width: 100%;
@@ -233,7 +229,7 @@ export default {
 			flex-direction: column;
 			padding: 0;
 		}
-
+    
 		header img {width: 50px;}
 
 		header #hamburger {
@@ -340,3 +336,4 @@ export default {
 		background-repeat: no-repeat;
 	}
 </style>
+

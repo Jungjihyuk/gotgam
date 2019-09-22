@@ -1,7 +1,7 @@
 <template>
   <div class="registration_wrap">
       <h1>Hello</h1>
-  
+
       <form action="">
           <input type="text" />
       </form>
