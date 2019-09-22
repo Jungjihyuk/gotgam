@@ -6,22 +6,21 @@
                 <span></span>
                 <span></span>
             </div>
-            <img src="../assets/logo2.png" alt="logo">
+            <router-link :to="logo.link"><img src="../assets/logo2.png" alt="logo"></router-link>
             <nav id="menu">
                 <li class="drop"><a v-on:click="display_drop_menu()">Travel <i class="icon-arrow"></i></a>
                     <ul class="drop_menu">
-                        <a>All Travel</a>
-                        <a>Travel By Region</a>
-                        <a>Travel By Mood</a>
+                        <router-link :to="regiontravel.link">Travel By Region</router-link>
+                        <router-link :to="moodtravel.link">Travel By Mood</router-link>
                     </ul>
                 </li>
-				        <li><a>Registration</a></li>
+				<li><router-link :to="registration.link">Registration</router-link></li>
                 <li><a>About</a></li>
 
-                <div class="login_bar">
-                  <li>Login</li>
-                  <li><a>Join</a></li>
-                </div>
+				<div class="login_bar">
+					<li><a>Login</a></li>
+					<li><router-link :to="signup.link">Join</router-link></li>
+				</div>
             </nav>
         </div>
     </header>
@@ -31,6 +30,26 @@
 import * as header from '../js/header.js';
 
 export default {
+	data() {
+    	return {
+			logo: {
+        		link: "/"
+			  },
+			  registration: {
+				  link: "/registration"
+			  },
+			  regiontravel: {
+				  link: "/regiontravel"
+			  },
+			  moodtravel: {
+				  link: "/moodtravel"
+			  },
+        signup:{
+			    link: "/signup"
+        }
+		};
+	},
+
 	methods: {
 		display_menu : function() {
 			var body = document.getElementsByTagName("body")[0];

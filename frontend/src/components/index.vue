@@ -1,7 +1,9 @@
 <template>
     <div class="wrapper">
         <Header></Header>
-        <Container></Container>
+        <div class="container1">
+        <router-view></router-view>
+        </div>
         <Footer></Footer>
     </div>
 </template>
@@ -25,5 +27,11 @@ export default {
     position: relative;
     width: 100%;
     min-height: 100%;
+}
+
+.container1 {
+    width: 100%;
+    min-height: 100vh; /* footer 하단 고정 */
+    padding-bottom: 250px;
 }
 </style>

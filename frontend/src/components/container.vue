@@ -1,5 +1,5 @@
 <template>
-  <div class="container1">
+  <div>
 	  <HomeHeader></HomeHeader>
 	  <div class="wrap">
 		<Section1></Section1>
@@ -29,12 +29,7 @@ export default {
 </script>
 
 <style lang="less">
-.container1 {
-    width: 100%;
-    min-height: 100vh; /* footer 하단 고정 */
-}
-
-.container1 .wrap {
+.wrap {
 	width: 100%;
 	margin: 0 auto;
 }

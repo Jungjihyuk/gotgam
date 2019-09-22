@@ -1,6 +1,7 @@
 <template>
   <div class="registration_wrap">
-      <Header></Header>
+      <h1>Hello</h1>
+  
       <form action="">
           <input type="text" />
       </form>
