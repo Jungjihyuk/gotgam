@@ -8,7 +8,7 @@
             </div>
             <router-link :to="logo.link"><img src="../assets/logo2.png" alt="logo"></router-link>
             <nav id="menu">
-                <li class="drop"><a v-on:click="display_drop_menu()">Travel <i class="icon-arrow"></i></a>
+                <li class="drop"><a v-on:click="display_drop_menu()">Travel</a>
                     <ul class="drop_menu">
                         <router-link :to="regiontravel.link">지역별</router-link>
                         <router-link :to="moodtravel.link">기분별</router-link>
@@ -152,6 +152,7 @@ export default {
 			border-bottom: 2px solid @cwhite;
 			transition: 0.15s;
 			background: none;
+      text-decoration: none;
 			&:hover {
 				border-bottom-color: @cblue;
 				color: @cblue;
@@ -166,8 +167,9 @@ export default {
 		position: absolute;
 		display: block;
 		top: 149%;
+    left: -15px;
 		transform: scaleY(0);
-		width: auto;
+		width: 90px;
 		transform-origin: top;
 		background-color: @cwhite;
 		transition: 0.25s;
