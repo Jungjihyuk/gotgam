@@ -10,8 +10,8 @@
             <nav id="menu">
                 <li class="drop"><a v-on:click="display_drop_menu()">Travel <i class="icon-arrow"></i></a>
                     <ul class="drop_menu">
-                        <router-link :to="regiontravel.link">Travel By Region</router-link>
-                        <router-link :to="moodtravel.link">Travel By Mood</router-link>
+                        <router-link :to="regiontravel.link">지역별</router-link>
+                        <router-link :to="moodtravel.link">기분별</router-link>
                     </ul>
                 </li>
 				<li><router-link :to="registration.link">Registration</router-link></li>

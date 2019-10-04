@@ -6,6 +6,9 @@ import router from './router'
 import 'expose-loader?$!expose-loader?jQuery!jquery'
 import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import  ImageUploader from 'vue-image-upload-resize'
+
+Vue.use(ImageUploader)
 
 Vue.config.productionTip = false
 
